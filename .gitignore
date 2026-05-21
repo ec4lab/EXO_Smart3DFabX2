@@ -1,0 +1,28 @@
+# Entorno virtual
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VSCode (opcional)
+.vscode/
+
+# Archivos por extensión que genera el programa
+#*.xlsx
+#*.csv
+#*.jpg
+
+# Archivos específicos
+#archivo.txt
+
+# Carpetas completas
+#Carpeta_1/
+
+# Carpetas ocultas completas
+.privado/
