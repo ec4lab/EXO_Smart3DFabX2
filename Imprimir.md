@@ -1,6 +1,6 @@
-### Crear gcode con thumbnails
+# Crear gcode con thumbnails
 
-#### En Ultimaker Cura
+## En Ultimaker Cura
 
 * Extensions
   * Post-processing

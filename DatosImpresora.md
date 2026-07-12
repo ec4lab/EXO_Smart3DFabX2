@@ -143,7 +143,8 @@ Recv: ok
 
 ```bash
 M501 # Configuración de Marlin
-```
+
+
 ```text
 Recv: echo:Hardcoded Default Settings Loaded  
 Recv: echo:  G21    ; Units in mm  
@@ -738,7 +739,7 @@ http://10.1.6.2/api/printerprofiles?apikey=COLOCAR_ACA_EL_APIKEY
       "default": false,  
       "extruder": {  
         "count": 2,  
-        "nozzleDiameter": 0.4, 
+        "nozzleDiameter": 0.4,
         "offsets": [  
           [  
             0.0,  

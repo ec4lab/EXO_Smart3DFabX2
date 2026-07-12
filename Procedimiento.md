@@ -19,7 +19,7 @@ Para dar un mejor orden se guardó la info en [DatosImpresora](DatosImpresora.md
 
 Para instalar el S.O. se debe `flashear`una SD, que luego se coloca en raspberry Pi, para esto se ha utilizando [Pi Imager](https://www.raspberrypi.com/software/).
 
->![Note]  
+>![NOTE]  
 >Existen otras formas de flashear una SD como Rufus, BalenaEtcher, etc. Pero en este caso se prefirió PiImager ya que permite un setup previo en donde se establecen algunos parámetros del S.O.
 
 * Seleccionar dispositivo -> Raspberry 3 B+
@@ -50,7 +50,7 @@ Si al iniciar el S.O. el texto aparece invertido es posible rotar la pantalla, p
 
 Desde un terminal (Linux), o consola PowerShell (Windows), ingresar por ssh a la raspberry:
 
->![Note]  
+>[!NOTE]  
 >Tanto la impresora como la PC deben estar conectadas por cable a la misma red
 
 ```bash
@@ -84,7 +84,7 @@ sudo reboot
 
 En este punto, aunque en la pantalla de la impresora solo se vea la CLI, desde la interfaz web ya es posible acceder a OctoPrint.
 
->![Note]  
+>[!NOTE]  
 >Tanto la impresora como la PC deben estar conectadas por cable a la misma red
 
 En el explorador ingresar a:
@@ -110,7 +110,7 @@ Descargar paquete .zip de <https://community.octoprint.org/t/translating-octopri
 Luego en la interfaz web
 
 * Settings
-  * Appeareance
+  * Appearance
     * Language packs
       * Manage
 
@@ -225,7 +225,7 @@ sudo apt-get install libltdl-dev libtool automake libdrm-dev
 sudo reboot
 ```
 
->![Note]  
+>[!NOTE]  
 >Recordar que en cada reboot se debe ingresar de nuevo por ssh
 
 ### instalar OctoDash
@@ -244,7 +244,7 @@ Luego aparecen opciones:
 
 Cuando inicie OctoDash, la primera vez arranca el wizard de configuración, seguir los pasos en pantalla.
 
-![Octodash Wizard](imagenes/wizard.jpg "Octodash Wizard en el primer ingreso")
+![OctoDash Wizard](imagenes/wizard.jpg "OctoDash Wizard en el primer ingreso")
 
 ### Rotar la pantalla de OctoDash
 
@@ -323,7 +323,7 @@ Guardar, salir y reiniciar
 
 Cuando inicie OctoDash, la primera vez arranca el wizard de configuración, seguir los pasos en pantalla
 
-### Editar Json lo iconos accesos rápidos
+### Editar los iconos de accesos rápidos desde `config.json`
 
 ![Accesos OctoDash](imagenes/OctoDash_accesos.jpg "SIconos de acceso rápido en OctoDash")
 
@@ -333,7 +333,7 @@ Se realizó una edición de los accesos rápidos, para adaptarlos a el uso que s
 sudo nano ~/.config/octodash/config.json
 ```
 
->[!Note]  
+>[!NOTE]  
 >El `json` a continuación incluye comentarios, se deben eliminar en el archivo original o dará error al iniciar
 
 ```json
@@ -519,9 +519,9 @@ Guardar y cerrar.
 * udev detecta el dispositivo USB con filesystem  
 * systemd ejecuta:  
   * <octoprint-usb-mount@sda1.service>
-* Se ejecuta el script
+    * Se ejecuta el script
 
-Crear el archivo `99-octoprint-usb.rules
+Crear el archivo `99-octoprint-usb.rules`
 
 ```bash
 /etc/udev/rules.d/99-octoprint-usb.rules
@@ -585,7 +585,7 @@ Es posible previsualizar una imagen (render), de la pieza que se está por impri
 
 ![PLUGIN THUMBNAILS](imagenes/thumbnails.jpg "Plugin Slicer Thumbnails")
 
-Este plugin detecta si los G-Codes contienen una imagen para la previsualización, es importante configurar los slicers para que las generen. ver [Imprmir](imprimir.md)
+Este plugin detecta si los G-Codes contienen una imagen para la previsualización, es importante configurar los slicers para que las generen. ver [Imprimir](imprimir.md)
 
 ## Imagen de timelapse invertida
 

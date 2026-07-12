@@ -33,7 +33,7 @@ G1 X50 F3000 ;Se mueve 50mm a la derecha
 ```
 
 ```gcode
-G90 ;Modo Absolutoo
+G90 ;Modo Absoluto
 ```
 
 ```gcode

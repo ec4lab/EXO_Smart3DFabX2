@@ -35,7 +35,7 @@ El procedimiento se documentó paso a paso [aquí](Procedimiento.md)
 
 ## Nuevo Plugin de pantalla
 
-El plugin `TouchUI, que utilizaba la pantalla ha sido abandonado y ya no recibe actualizaciones.
+El plugin `TouchUI`, que utilizaba la pantalla ha sido abandonado y ya no recibe actualizaciones.
 
 ![TouchUI](imagenes/TouchUI.jpg "Plugin TouchUI fue abandonado")  
 

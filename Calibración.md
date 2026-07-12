@@ -208,9 +208,9 @@ T1
 
 Como comprobación final se vuelve a imprimir [X.gcode](G-Codes),  y se verifica que haya salido en el centro de la cama y que ambos colores estén alineados.
 
-![X](imagenes/X_3.jpg "Desvio en X e Y")
+![X](imagenes/X_3.jpg "Desvío en X e Y")
 
-![X](imagenes/X_4.jpg "Ofsets de extrusores")
+![X](imagenes/X_4.jpg "Offsets de extrusores")
 
 Como ya se estableció, al no poder actualizar la EEPROM, se agrega al script de arranque una  nueva línea:
 
