@@ -54,7 +54,7 @@ Desde un terminal (Linux), o consola PowerShell (Windows), ingresar por ssh a la
 >Tanto la impresora como la PC deben estar conectadas por cable a la misma red
 
 ```bash
-shh  EXO@exo1.local
+ssh  EXO@exo1.local
 ```
 
 `Credenciales`: Nombre de usuario y pass, utilizados para crear la SD.
@@ -174,7 +174,7 @@ Como se mencionó antes, TOUCHUI fue abandonado, como alternativa se instala la 
 ### Entrar vía ssh a la raspberry
 
 ```bash
-shh  EXO@exo1.local
+ssh  EXO@exo1.local
 ```
 
 ### Actualizar el sistema (puede demorar varios minutos)
@@ -255,7 +255,7 @@ Se debe tener en cuenta que la interfaz y el sensor táctil son dos cosas separa
 Entrar vía ssh a la raspberry
 
 ```bash
-shh  EXO@exo1.local
+ssh  EXO@exo1.local
 ```
 
 instalar x input
